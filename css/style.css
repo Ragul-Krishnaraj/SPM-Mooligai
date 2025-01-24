@@ -481,3 +481,15 @@ height: 150px !important;
   .f-20{
     font-size: 20px;
   }
+
+  .text-right {
+    text-align: right;
+}
+
+.forgot-link {
+    color: #3d3d3d;
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
