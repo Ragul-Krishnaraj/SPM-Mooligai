@@ -446,3 +446,38 @@ height: 150px !important;
     display: inline-block;
     text-align: center;
 }
+
+ 
+
+
+.form-group {
+    position: relative;
+    margin-bottom:0;
+  }
+  
+  .form-control-placeholder {
+    position: absolute;
+    top: 0;
+    padding: 12px 0 0 13px;
+    transition: all 200ms;
+    opacity: 0.5;
+  }
+  
+  .form-control:focus + .form-control-placeholder,
+  .form-control:valid + .form-control-placeholder {
+    font-size: 75%;
+    transform: translate3d(0, -50%, 0);
+    opacity: 1;
+    background-color: white;
+    padding: 0 5px;
+    margin-left: 8px;
+  }
+  
+
+  .register:hover{
+    text-decoration: underline;
+  }
+
+  .f-20{
+    font-size: 20px;
+  }
