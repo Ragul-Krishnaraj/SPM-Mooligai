@@ -497,3 +497,14 @@ height: 150px !important;
 .f-25{
     font-size: 25px;
 }
+
+/* product-checkout */
+.gradient-custom {
+     background: #95c30b;
+     background: rgb(148,187,28);
+     background: linear-gradient(90deg, rgba(148,187,28,1) 25%, rgba(149,195,11,1) 51%, rgba(146,186,26,1) 100%);
+         }
+
+.h-50{
+    height: 50px !important;
+}
